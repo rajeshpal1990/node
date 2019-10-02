@@ -21,7 +21,7 @@ router.get("/:postId", async (req, res) => {
         res.status(500);
     }
 });
-
+sdkkjdsgk
 router.put("/:postId", async (req, res) => {
     try {
         const post = await Post.findByIdAndUpdate({
