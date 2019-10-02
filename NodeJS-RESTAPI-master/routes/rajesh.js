@@ -12,7 +12,7 @@ router.get("/", async (req, res) => {
         res.status(500)
     }
 });
-
+jsdkahdjkahsj
 router.get("/:postId", async (req, res) => {
     try {
         const post = await Post.findOne({ _id: req.params.postId })
