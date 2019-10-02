@@ -1,7 +1,7 @@
 /* post */
 const router = require("express").Router();
 const mongoose = require("mongoose");
-
+asjdhskjd
 const Post = mongoose.model("Post")
 
 router.get("/", async (req, res) => {
